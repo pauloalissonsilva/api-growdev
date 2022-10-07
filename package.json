@@ -8,6 +8,7 @@
         "start": "node ./build/index.js",
         "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
         "dev:debug": "ts-node-dev --inspect --respawn --transpile-only ./src/index.ts"
+        "postinstall": "tsc"
     },
     "keywords": [],
     "author": "",
